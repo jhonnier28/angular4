@@ -10,11 +10,10 @@ import {Router} from "@angular/router";
 })
 export class HeaderComponent {
   constructor(public _is:InformacionService, private router:Router){
-//  console.info(_is.info.titulo);
+
  }
 
  buscar_producto(termino:string){
-   //console.log(termino);
-   this.router.navigate(['buscar',termino])
+     this.router.navigate(['buscar',termino])
  }
 }

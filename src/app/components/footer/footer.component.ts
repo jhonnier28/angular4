@@ -11,8 +11,6 @@ export class FooterComponent {
 
     constructor(public _is:InformacionService  ){
 
-      
+
     }
-
-
 }

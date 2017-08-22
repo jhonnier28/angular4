@@ -58,8 +58,6 @@ export class ProductosService {
           this.productos_filtrado.push(prod);
           console.log(prod);
         }
-         //console.log(prod);
       })
     }
-
 }
